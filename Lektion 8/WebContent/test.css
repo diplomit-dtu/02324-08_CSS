@@ -11,12 +11,26 @@ h1 {
 
 input {
 	border-radius: 6px;
+	height: 25px;
 }
 
 input[type=password]{
 	border-color: rgba(255, 0, 0, 0.3);
+	border-style: inset;
 }
 
+input[type=submit]{
+	background-color:rgba(0,0,255,0.4);
+}
+
+table {
+	border-style: solid;
+	border-width: 1px;
+}
+
+tr:nth-child(2n) {
+	background-color: #f2f2f2
+	}
 
 .container {
 	border-style: solid;
@@ -24,7 +38,8 @@ input[type=password]{
 	border-width: 1px;
 	padding: 10px;
 	padding-top:75px;
-	width:400px;
+	max-width:400px;
+	min-width:320px;
 	margin:auto;
 	margin-top: 100px;
 	position: relative;
