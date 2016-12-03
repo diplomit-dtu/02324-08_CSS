@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+	
+}
+
+input {
+	border-radius: 6px;
+}
+
+input[type=password]{
+	border-color: rgba(255, 0, 0, 0.3);
+}
+
+
+.container {
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	padding: 10px;
+	padding-top:75px;
+	width:400px;
+	margin:auto;
+	margin-top: 100px;
+	position: relative;
+	box-shadow: 5px 10px 10px #888888;
+	text-align: center;
+}
+
+.img-container {
+		opacity: 0.7;
+		position: absolute;
+		top:-50px;
+		z-index: 1;
+}
